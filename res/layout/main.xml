@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter ZIP Code" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/zip_edit_text"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus >
+        </requestFocus>
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+    </TextView>
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Current Location" >
+    </RadioButton>
+	
+     <Button
+         android:id="@+id/pick_start"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Events Starting After...">
+         
+     </Button>
+
+     <TextView
+         android:id="@+id/start_date_text_view"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="End Date" />
+     
+    <TextView
+        android:id="@+id/radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radius" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/prompt" />
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:text="Go" />
+
+</LinearLayout>

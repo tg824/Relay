@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Relay</string>
+    <string name="app_name">Relay</string>
+    <string name="map_res">MapResults</string>
+    <string name="page_not_found">Error! Page Not Found.  Now Exiting.</string>
+    
+    <string name="prompt">Choose a radius</string>
+    <string-array name="radius_array">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+    </string-array>
+</resources>
